@@ -1,6 +1,6 @@
 # Rabbitmq with node/expressjs
 
-### In this code I have implemented the mutliple queue pubilce/consume the notification
+### In this code I have implemented the mutliple queue publice/consume the notification
 
 ## Prerequisites
 
@@ -30,9 +30,9 @@ Submit Order API :
 curl --location 'http://localhost:3000/order' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "name": "Alex",
+    "name": "jojo",
     "product": "Iphone",
-    "email": "alex@yopmail.com"
+    "email": "test@yopmail.com"
 }'
 ```
 
